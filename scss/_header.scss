@@ -1,0 +1,45 @@
+$sizeB:cover;
+.containerHeader {
+    background-image: url(../assets/images/info@molasymolasseguros.com.png); 
+    object-fit: cover;
+    width: 100%;
+    height:770px;
+    &__logoIndex{
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+    &--a{
+        padding-right: 30px !important;
+        color:rgba(0, 0, 0, 0.7) !important;
+    }
+
+    &--a:hover{
+        font-weight: 600;
+    }
+}
+
+.nosotros{
+    background-image: url(../assets/images/business-handshake-of-two-men-demonstrating-their-agreement-to-sign-agreement-or-contract-between-their-firms-companies-enterprises.jpg);
+}
+
+.navbar__iconNosotros{
+    color:#f8f7dea2;
+    background:rgba(0, 0, 0, 0.233);
+    font-size: 25px;
+}
+
+.productos{
+    background-image: url(../assets/images/family-moving-and-using-boxes.jpg);
+    background-size: $sizeB;
+}
+.cotizador{
+    background-image: url(../assets/images/closeup-of-male-candidate-filling-in-application-form.jpg);
+    background-size: $sizeB;
+}
+.contacto{
+    background-image: url(../assets/images/business-hand-with-mobile-phone.jpg);
+    background-size: $sizeB;
+}
+
+
+

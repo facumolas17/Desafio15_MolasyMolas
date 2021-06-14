@@ -1,0 +1,132 @@
+.containerHeader {
+  background-image: url(../assets/images/info@molasymolasseguros.com.png);
+  object-fit: cover;
+  width: 100%;
+  height: 770px; }
+  .containerHeader__logoIndex {
+    padding-left: 30px;
+    padding-top: 40px; }
+  .containerHeader--a {
+    padding-right: 30px !important;
+    color: rgba(0, 0, 0, 0.7) !important; }
+  .containerHeader--a:hover {
+    font-weight: 600; }
+
+.nosotros {
+  background-image: url(../assets/images/business-handshake-of-two-men-demonstrating-their-agreement-to-sign-agreement-or-contract-between-their-firms-companies-enterprises.jpg); }
+
+.navbar__iconNosotros {
+  color: #f8f7dea2;
+  background: rgba(0, 0, 0, 0.233);
+  font-size: 25px; }
+
+.productos {
+  background-image: url(../assets/images/family-moving-and-using-boxes.jpg);
+  background-size: cover; }
+
+.cotizador {
+  background-image: url(../assets/images/closeup-of-male-candidate-filling-in-application-form.jpg);
+  background-size: cover; }
+
+.contacto {
+  background-image: url(../assets/images/business-hand-with-mobile-phone.jpg);
+  background-size: cover; }
+
+.section {
+  padding-top: 30px; }
+
+.div__btn {
+  margin-left: 20px;
+  width: 50px;
+  height: 30px; }
+
+.card__cardbody--h5 {
+  width: 200px; }
+
+.carousel-item__img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover; }
+
+.container__row--strong {
+  color: #0ad1e5;
+  font-style: italic;
+  font-weight: 400; }
+
+.container__row--h4 {
+  color: rgba(128, 128, 128, 0.74);
+  font-weight: 400;
+  font-style: italic; }
+
+.row__formCoti--textArea {
+  overflow: scroll;
+  width: 50%;
+  height: 300px; }
+
+.formCotizador__select {
+  color: rgba(0, 0, 0, 0.8); }
+
+.row__formContacto--textArea {
+  overflow: scroll; }
+
+.formContacto {
+  border: 3px solid black;
+  padding: 50px 50px; }
+
+.form__input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 3px solid rgba(12, 12, 12, 0.733);
+  background: transparent;
+  color: black;
+  min-height: 40px;
+  font-size: 18px; }
+
+.form__input:focus {
+  background: linear-gradient(to bottom, white, #e6e9e67a);
+  outline: none; }
+
+.form__textArea {
+  height: 200px;
+  margin-bottom: 30px; }
+
+.sectionContacto__h5 {
+  color: rgba(128, 128, 128, 0.74); }
+
+.logos {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px; }
+
+.companias__logos--img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  margin: 15px; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.699);
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15); }
+  .footer__redesFooter--i {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.644); }
+    .footer__redesFooter--i:hover {
+      color: rgba(0, 0, 0, 0.85); }
+
+body {
+  background-color: white;
+  color: black; }
+
+@media all and (max-width: 1088px) {
+  .containerHeader--a i {
+    display: none; } }
+
+@media all and (max-width: 838px) {
+  .padding {
+    padding-bottom: 15px; }
+  .footerSticky {
+    font-size: 15px; } }

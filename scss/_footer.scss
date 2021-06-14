@@ -1,0 +1,15 @@
+$posfooter:fixed;
+$backg:rgba(255, 255, 255, 0.699);
+.footer{
+    position:$posfooter;
+    bottom:0;
+    background:$backg;
+    border-top: .5px solid rgba(0, 0, 0, 0.15);
+    &__redesFooter--i{
+        font-size: 25px;
+        color:rgba(0, 0, 0, 0.644);
+        &:hover{
+            color:rgba(0, 0, 0, 0.85);
+        }
+    }
+}
