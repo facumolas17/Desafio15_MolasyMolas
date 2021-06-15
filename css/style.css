@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .containerHeader {
   background-image: url(../assets/images/info@molasymolasseguros.com.png);
   object-fit: cover;
@@ -116,6 +117,9 @@
     color: rgba(0, 0, 0, 0.644); }
     .footer__redesFooter--i:hover {
       color: rgba(0, 0, 0, 0.85); }
+
+.diseño__h6 {
+  font-size: 12px; }
 
 body {
   background-color: white;
