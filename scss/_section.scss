@@ -28,7 +28,7 @@
     
 }
 
-.container__row--h4{
+.gris{
     color:rgba(128, 128, 128, 0.74);
     font-weight: 400;
     font-style:italic;
@@ -92,3 +92,25 @@
     margin: 15px;
 }
 
+.logos__companias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin: 20px;
+
+    img{
+        object-fit:scale-down;
+        padding: 0 15px;
+        margin: 0 15px;
+        flex-basis: 200px;
+    }
+}
+
+.azul{
+    color:#125D98;
+}
+
+.italic{
+    font-style: italic;
+}

@@ -19,7 +19,7 @@ $sizeB:cover;
 }
 
 .nosotros{
-    background-image: url(../assets/images/business-handshake-of-two-men-demonstrating-their-agreement-to-sign-agreement-or-contract-between-their-firms-companies-enterprises.jpg);
+    background-image: url(../assets/images/businesspeople-shaking-hands.jpg);
 }
 
 .navbar__iconNosotros{
@@ -38,6 +38,11 @@ $sizeB:cover;
 }
 .contacto{
     background-image: url(../assets/images/business-hand-with-mobile-phone.jpg);
+    background-size: $sizeB;
+}
+
+.siniestro{
+    background-image: url(../assets/images/insurance-agent-working-during-on-site-car-accident-claim-process-people-and-car-insurance-claim.jpg);
     background-size: $sizeB;
 }
 

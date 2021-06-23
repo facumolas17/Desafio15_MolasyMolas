@@ -14,7 +14,7 @@
     font-weight: 600; }
 
 .nosotros {
-  background-image: url(../assets/images/business-handshake-of-two-men-demonstrating-their-agreement-to-sign-agreement-or-contract-between-their-firms-companies-enterprises.jpg); }
+  background-image: url(../assets/images/businesspeople-shaking-hands.jpg); }
 
 .navbar__iconNosotros {
   color: #f8f7dea2;
@@ -31,6 +31,10 @@
 
 .contacto {
   background-image: url(../assets/images/business-hand-with-mobile-phone.jpg);
+  background-size: cover; }
+
+.siniestro {
+  background-image: url(../assets/images/insurance-agent-working-during-on-site-car-accident-claim-process-people-and-car-insurance-claim.jpg);
   background-size: cover; }
 
 .section {
@@ -54,7 +58,7 @@
   font-style: italic;
   font-weight: 400; }
 
-.container__row--h4 {
+.gris {
   color: rgba(128, 128, 128, 0.74);
   font-weight: 400;
   font-style: italic; }
@@ -107,6 +111,24 @@
   padding: 10px;
   margin: 15px; }
 
+.logos__companias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid black;
+  margin: 20px; }
+  .logos__companias img {
+    object-fit: scale-down;
+    padding: 0 15px;
+    margin: 0 15px;
+    flex-basis: 200px; }
+
+.azul {
+  color: #125D98; }
+
+.italic {
+  font-style: italic; }
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -119,7 +141,15 @@
       color: rgba(0, 0, 0, 0.85); }
 
 .diseño__h6 {
-  font-size: 12px; }
+  font-size: 12px;
+  color: #125D98; }
+
+.disenio__desarrollo {
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  text-align: center; }
 
 body {
   background-color: white;
@@ -127,10 +157,16 @@ body {
 
 @media all and (max-width: 1088px) {
   .containerHeader--a i {
-    display: none; } }
+    display: none; }
+  .disenio__desarrollo {
+    margin-bottom: 10px; } }
 
 @media all and (max-width: 838px) {
   .padding {
     padding-bottom: 15px; }
   .footerSticky {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .img__ssn {
+    display: none; }
+  .disenio {
+    margin-bottom: 25px; } }
