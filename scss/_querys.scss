@@ -1,4 +1,4 @@
-@media all and (max-width:1088px){
+/* @media all and (max-width:1088px){
     .containerHeader--a i{
         display: none;
     }
@@ -22,3 +22,60 @@
         margin-bottom: 25px;
     }
 }
+
+*/
+
+@media all and(max-width:992px){ //tablets
+    
+}
+
+@media all and(max-width:767px){ //mobiles
+    .containerHeader__logoIndex{
+        img{
+        width:120px;
+        height: 75px;
+        object-fit:scale-down;
+        }
+    }
+    .containerHeader{
+        background-image: url(../assets/images/fondos_mobile/hogar.png);
+        object-fit:scale-down;
+        height: 800px;
+        &__logoIndex{
+            padding-top: 20px;
+            padding-left: 10px;
+            img{
+            width:120px;
+            height: 75px;
+            object-fit:scale-down;
+            }
+        }
+    }
+    .disenio__desarrollo{
+        justify-content: center;
+        margin-bottom: 30px;
+        div{
+            margin-bottom: 4px;
+        }
+       img{
+           width:80px;
+           height: 40px;
+       }
+    }
+    
+    .footer{
+        justify-content: center;
+        
+        h6{
+            font-size: 14px;
+        }
+        .redesFooter{
+            text-align: center !important ;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+    }
+}
+
+
+

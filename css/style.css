@@ -155,18 +155,61 @@ body {
   background-color: white;
   color: black; }
 
-@media all and (max-width: 1088px) {
-  .containerHeader--a i {
-    display: none; }
-  .disenio__desarrollo {
-    margin-bottom: 10px; } }
+/* @media all and (max-width:1088px){
+    .containerHeader--a i{
+        display: none;
+    }
+    .disenio__desarrollo{
+        margin-bottom: 10px;
+    }
+    
+}
 
-@media all and (max-width: 838px) {
-  .padding {
-    padding-bottom: 15px; }
-  .footerSticky {
-    font-size: 15px; }
-  .img__ssn {
-    display: none; }
-  .disenio {
-    margin-bottom: 25px; } }
+@media all and(max-width:838px){
+    .padding{
+        padding-bottom: 15px;
+    }
+    .footerSticky{
+        font-size: 15px;
+    }
+    .img__ssn{
+        display: none;
+    }
+    .disenio{
+        margin-bottom: 25px;
+    }
+}
+
+*/
+@media all and (max-width: 767px) {
+  .containerHeader__logoIndex img {
+    width: 120px;
+    height: 75px;
+    object-fit: scale-down; }
+  .containerHeader {
+    background-image: url(../assets/images/fondos_mobile/hogar.png);
+    object-fit: scale-down;
+    height: 800px; }
+    .containerHeader__logoIndex {
+      padding-top: 20px;
+      padding-left: 10px; }
+      .containerHeader__logoIndex img {
+        width: 120px;
+        height: 75px;
+        object-fit: scale-down; }
+  .disenio__desarrollo {
+    justify-content: center;
+    margin-bottom: 30px; }
+    .disenio__desarrollo div {
+      margin-bottom: 4px; }
+    .disenio__desarrollo img {
+      width: 80px;
+      height: 40px; }
+  .footer {
+    justify-content: center; }
+    .footer h6 {
+      font-size: 14px; }
+    .footer .redesFooter {
+      text-align: center !important;
+      margin-top: 10px;
+      margin-left: 15px; } }
