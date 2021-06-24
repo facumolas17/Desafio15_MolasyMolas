@@ -182,10 +182,6 @@ body {
 
 */
 @media all and (max-width: 767px) {
-  .containerHeader__logoIndex img {
-    width: 120px;
-    height: 75px;
-    object-fit: scale-down; }
   .containerHeader {
     background-image: url(../assets/images/fondos_mobile/hogar.png);
     object-fit: scale-down;
@@ -197,6 +193,16 @@ body {
         width: 120px;
         height: 75px;
         object-fit: scale-down; }
+  .nosotros {
+    background-image: url(../assets/images/fondos_mobile/manos_agarradas.jpg); }
+  .productos {
+    background-image: url(../assets/images/fondos_mobile/productos_mobile.jpg); }
+  .cotizador {
+    background-image: url(../assets/images/fondos_mobile/coti.jpg); }
+  .siniestro {
+    background-image: url(../assets/images/fondos_mobile/siniestro_mobile.jpg); }
+  .contacto {
+    background-image: url(../assets/images/fondos_mobile/contact.jpg); }
   .disenio__desarrollo {
     justify-content: center;
     margin-bottom: 30px; }
@@ -212,4 +218,6 @@ body {
     .footer .redesFooter {
       text-align: center !important;
       margin-top: 10px;
-      margin-left: 15px; } }
+      margin-left: 15px; }
+  .logos__companias img {
+    flex-basis: 35px; } }
