@@ -1,10 +1,8 @@
-$posfooter:fixed;
-$backg:rgba(255, 255, 255, 0.699);
 .footer{
-    position:$posfooter;
+    position:fixed;
     bottom:0;
-    background:$backg;
-    border-top: .5px solid rgba(0, 0, 0, 0.15);
+    background-color:rgba(255, 255, 255, 0.699);
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
     &__redesFooter--i{
         font-size: 25px;
         color:rgba(0, 0, 0, 0.644);
@@ -22,6 +20,9 @@ $backg:rgba(255, 255, 255, 0.699);
     align-content: center;
     justify-content:space-between;
     align-items: center;
-    padding:10px 60px;
+    padding:20px 60px;
     text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    border-top:2px solid rgba(0, 0, 0, 0.15);
 }

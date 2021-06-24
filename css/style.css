@@ -115,13 +115,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: 2px solid black;
-  margin: 20px; }
+  margin: 100px;
+  padding-top: 10px;
+  border-top: 3px solid rgba(0, 0, 0, 0.3); }
   .logos__companias img {
     object-fit: scale-down;
-    padding: 0 15px;
-    margin: 0 15px;
-    flex-basis: 200px; }
+    padding: 0 25px;
+    margin: 0 25px;
+    flex-basis: 100px; }
 
 .azul {
   color: #125D98; }
@@ -132,8 +133,8 @@
 .footer {
   position: fixed;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.699);
-  border-top: 0.5px solid rgba(0, 0, 0, 0.15); }
+  background-color: rgba(255, 255, 255, 0.699);
+  border-top: 2px solid rgba(0, 0, 0, 0.15); }
   .footer__redesFooter--i {
     font-size: 25px;
     color: rgba(0, 0, 0, 0.644); }
@@ -148,8 +149,11 @@
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 60px;
-  text-align: center; }
+  padding: 20px 60px;
+  text-align: center;
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  border-top: 2px solid rgba(0, 0, 0, 0.15); }
 
 body {
   background-color: white;

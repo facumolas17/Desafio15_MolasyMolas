@@ -96,14 +96,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 2px solid black;
-    margin: 20px;
+    margin: 100px;
+    padding-top: 10px;
+    border-top: 3px solid rgba(0, 0, 0, 0.3);
+    
+    
+
 
     img{
         object-fit:scale-down;
-        padding: 0 15px;
-        margin: 0 15px;
-        flex-basis: 200px;
+        padding: 0 25px;
+        margin: 0 25px;
+        flex-basis: 100px;
     }
 }
 
