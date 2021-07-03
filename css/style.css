@@ -2,14 +2,16 @@
 .containerHeader {
   background-image: url(../assets/images/info@molasymolasseguros.com.png);
   object-fit: cover;
+  background-size: cover;
   width: 100%;
-  height: 770px; }
+  height: 730px; }
   .containerHeader__logoIndex {
     padding-left: 30px;
     padding-top: 40px; }
   .containerHeader--a {
     padding-right: 30px !important;
-    color: rgba(0, 0, 0, 0.7) !important; }
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 1.10rem; }
   .containerHeader--a:hover {
     font-weight: 600; }
 
@@ -22,20 +24,16 @@
   font-size: 25px; }
 
 .productos {
-  background-image: url(../assets/images/family-moving-and-using-boxes.jpg);
-  background-size: cover; }
+  background-image: url(../assets/images/family-moving-and-using-boxes.jpg); }
 
 .cotizador {
-  background-image: url(../assets/images/closeup-of-male-candidate-filling-in-application-form.jpg);
-  background-size: cover; }
+  background-image: url(../assets/images/closeup-of-male-candidate-filling-in-application-form.jpg); }
 
 .contacto {
-  background-image: url(../assets/images/business-hand-with-mobile-phone.jpg);
-  background-size: cover; }
+  background-image: url(../assets/images/business-hand-with-mobile-phone.jpg); }
 
 .siniestro {
-  background-image: url(../assets/images/insurance-agent-working-during-on-site-car-accident-claim-process-people-and-car-insurance-claim.jpg);
-  background-size: cover; }
+  background-image: url(../assets/images/insurance-agent-working-during-on-site-car-accident-claim-process-people-and-car-insurance-claim.jpg); }
 
 .section {
   padding-top: 30px; }
