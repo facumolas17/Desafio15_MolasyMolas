@@ -80,14 +80,14 @@
   width: 100%;
   padding: 7px;
   border: none;
-  border-bottom: 3px solid rgba(12, 12, 12, 0.733);
+  border-bottom: 0.5px solid rgba(12, 12, 12, 0.733);
   background: transparent;
   color: black;
   min-height: 40px;
   font-size: 18px; }
 
 .form__input:focus {
-  background: linear-gradient(to bottom, white, #e6e9e67a);
+  background: linear-gradient(to bottom, white, #0ad3e53a);
   outline: none; }
 
 .form__textArea {
@@ -131,8 +131,7 @@
 .footer {
   position: fixed;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.699);
-  border-top: 2px solid rgba(0, 0, 0, 0.15); }
+  background-color: rgba(255, 255, 255, 0.699); }
   .footer__redesFooter--i {
     font-size: 25px;
     color: rgba(0, 0, 0, 0.644); }
@@ -150,8 +149,7 @@
   padding: 20px 60px;
   text-align: center;
   background-color: whitesmoke;
-  margin-bottom: 5px;
-  border-top: 2px solid rgba(0, 0, 0, 0.15); }
+  margin-bottom: 5px; }
 
 body {
   background-color: white;
