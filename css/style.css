@@ -128,6 +128,17 @@
 .italic {
   font-style: italic; }
 
+.card__pp {
+  background-color: #125D98;
+  color: green;
+  border: 2px solid black; }
+
+.sin__bordes {
+  border: none; }
+
+.card-img-top {
+  border-radius: 15%; }
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -155,32 +166,6 @@ body {
   background-color: white;
   color: black; }
 
-/* @media all and (max-width:1088px){
-    .containerHeader--a i{
-        display: none;
-    }
-    .disenio__desarrollo{
-        margin-bottom: 10px;
-    }
-    
-}
-
-@media all and(max-width:838px){
-    .padding{
-        padding-bottom: 15px;
-    }
-    .footerSticky{
-        font-size: 15px;
-    }
-    .img__ssn{
-        display: none;
-    }
-    .disenio{
-        margin-bottom: 25px;
-    }
-}
-
-*/
 @media all and (max-width: 767px) {
   .containerHeader {
     background-image: url(../assets/images/fondos_mobile/hogar.png);
