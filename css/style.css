@@ -27,7 +27,7 @@
   background-image: url(../assets/images/family-moving-and-using-boxes.jpg); }
 
 .cotizador {
-  background-image: url(../assets/images/closeup-of-male-candidate-filling-in-application-form.jpg); }
+  background-image: url(../assets/images/close-up-detail-of-professional-serious-accountant-sitting-in-light-office-checking-company-finance-profits-on-calculator.jpg); }
 
 .contacto {
   background-image: url(../assets/images/business-hand-with-mobile-phone.jpg); }
@@ -142,6 +142,12 @@
 .icon__grande {
   font-size: 25px; }
 
+.nav-link {
+  font-weight: 500 !important; }
+
+.nav-link:hover {
+  font-weight: 700 !important; }
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -173,7 +179,7 @@ body {
   .containerHeader {
     background-image: url(../assets/images/fondos_mobile/hogar.png);
     object-fit: scale-down;
-    height: 800px; }
+    height: 700px; }
     .containerHeader__logoIndex {
       padding-top: 20px;
       padding-left: 10px; }
@@ -186,7 +192,7 @@ body {
   .productos {
     background-image: url(../assets/images/fondos_mobile/productos_mobile.jpg); }
   .cotizador {
-    background-image: url(../assets/images/fondos_mobile/coti.jpg); }
+    background-image: url(../assets/images/fondos_mobile/cotizador__mobile.jpg); }
   .siniestro {
     background-image: url(../assets/images/fondos_mobile/siniestro_mobile.jpg); }
   .contacto {
