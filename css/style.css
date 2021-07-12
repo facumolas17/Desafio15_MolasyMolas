@@ -114,6 +114,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 100px;
+  margin-bottom: 50px;
   padding-top: 10px;
   border-top: 3px solid rgba(0, 0, 0, 0.3); }
   .logos__companias img {
@@ -212,6 +213,12 @@ body {
     .footer .redesFooter {
       text-align: center !important;
       margin-top: 10px;
-      margin-left: 15px; }
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 0 !important; }
+  .footer__redesFooter--i {
+    font-size: 25px; }
   .logos__companias img {
-    flex-basis: 35px; } }
+    flex-basis: 35px; }
+  .footer__info {
+    justify-content: space-between; } }
