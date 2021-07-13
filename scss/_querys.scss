@@ -1,5 +1,19 @@
 @media all and(max-width:992px){ //tablets
-    
+    .footer{
+        position: relative;
+        bottom: 25px;
+
+        h6{
+            font-size: 14px;  
+        }
+    }
+
+    #navbarNav{
+        background-color:rgba(255, 255, 255, 0.699);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
 }
 
 @media all and(max-width:767px){ //mobiles
